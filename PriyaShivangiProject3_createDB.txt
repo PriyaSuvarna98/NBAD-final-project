@@ -1,0 +1,121 @@
+use NBAD
+
+db.createCollection("events")
+
+show collections
+
+db.events.insertMany(
+[{
+  
+    "title": "Bollywood",
+    "category": "Dance",
+    "hostedBy": "North South Dance Company",
+    "details": "Our elite group of dancers compete and perform locally and nationally. In June 2022, they received the overall top award at Nationals! The genre of our dance is Bollywood. The duration of the show will be two hours which includes one interval.",
+    "date": "2023-09-10",
+    "time": "16:30",
+    "location": "Mason Hall",
+    "duration": "2 hours, including one interval",
+    "image": "/images/dance-logo-1.jpg"
+},
+{
+    
+    "title": "Hip-Hop" ,
+    "category": "Dance",
+    "hostedBy": "Forever Dance Academy",
+    "details": "This famous hip-hop dance crew has won multiple dance competitions both domestic and international. The tickets will be available shortly.",
+    "date": "2023-11-21",
+    "time": "18:30",
+    "location":"Mason Hall",
+    "duration": "2.5 hours with 2 intermission",
+    "image": "/images/dance-logo-2.jpg"
+},
+
+{
+    "title": "Classical",
+    "category": "Dance",
+    "hostedBy": "Nritya Academy",
+    "details": "Nritya Academy is known for performing Indian classical dances. In this show they will be performing Manipuri Dance originating from Manipur",
+    "date": "2023-12-25",
+    "time": "15:30",
+    "location": "Gregg Hall",
+    "duration": "1 hour without interval",
+    "image": "/images/dance-logo-3.jpg"
+},
+
+{
+   
+    "title": "Jazz",
+    "category": "Music",
+    "hostedBy": "North South Music Company",
+    "details": "Enjoy jazz music performed by the famous North South Music Company.",
+    "date": "2024-01-24",
+    "time": "11:30",
+    "location": "Mason Hall",
+    "duration": "1.5 hours with 10 mins interval",
+    "image": "/images/music-logo-1.jpg"
+},
+
+{
+  
+    "title": "Rock",
+    "category": "Music",
+    "hostedBy": "Boombox Music Company",
+    "details": "This rock band performs worldwide. The show will run for two and half hours.",
+    "date": "2023-10-09",
+    "time":"18:30",
+    "location": "Gregg Hall",
+    "duration": "2.5 hours with 2 intervals",
+    "image": "/images/music-logo-2.jpg"
+},
+
+{
+   
+    "title": "Pop",
+    "category": "Music",
+    "hostedBy": "The Big Bang Music Company",
+    "details": "This is a Pop band which tours around the country. They are performing for the first time in Broadway Connections",
+    "date": "2023-10-20",
+    "time": "19:30",
+    "location": "Epic Hall",
+    "duration": "1.5 hours with 1 intermission",
+    "image": "/images/music-logo-3.jpg"
+},
+
+{
+
+    "title": "Comedy",
+    "category": "Drama",
+    "hostedBy": "North South Drama Company",
+    "details": "The genre of this drama is comedy and the duation is 3 hours with one small interval of 15 mins and one long interval of 30 mins",
+    "date": "2023-11-02",
+    "time": "10:30",
+    "location": "Mason Hall",
+    "duration": "3 hours with 2 intervals",
+    "image": "/images/drama-logo-1.jpg"
+}, 
+
+{
+    "title": "Musical",
+    "category": "Drama",
+    "hostedBy": "Charlie Performing Art Center",
+    "details": "This is a Musical performed by Charlie and his crew",
+    "date": "2003-20-11",
+    "time": "18:30",
+    "location": "Gregg Hall",
+    "duration": "2 hours with 1 interval",
+    "image": "/images/drama-logo-2.jpg"
+},
+
+{
+   
+    "title": "Tragedy",
+    "category": "Drama",
+    "hostedBy": "RJ Academy for Drama",
+    "details": "This is a drama based on tragedy",
+    "date": "2023-12-08",
+    "time": "21:00",
+    "location": "Epic Hall",
+    "duration": "2.5 hours with 2 intermission",
+    "image": "/images/drama-logo-3.jpg"
+}
+])
